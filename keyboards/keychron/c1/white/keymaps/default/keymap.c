@@ -29,6 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KC_MSNP LSFT(LGUI(KC_4))    // Mac snip tool
 #define KC_M_FN MO(MAC_FN)          // Mac Fn
 
+#define KC_MUTE LALT(KC_GRV)
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*  Windows layout
     +-------------------------------------------------------------------------------------------+
